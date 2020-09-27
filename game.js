@@ -43,8 +43,8 @@ function distribute()
 
 function stopGame()
 {
-    document.getElementById('start-button').hidden = false
-    document.getElementById('game-board').hidden = true
+    options.hidden = false
+    board.hidden = true
 
     if (correct === numQuestion) {
         message = "Congratz, you got it all correct!"
