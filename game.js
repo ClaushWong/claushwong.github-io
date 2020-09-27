@@ -1,5 +1,5 @@
 // Settings
-let startButton = document.getElementById('start-button')
+let options = document.getElementById('options')
 let board = document.getElementById('game-board')
 
 let question = document.getElementById('question')
@@ -14,7 +14,7 @@ let message
 
 function start()
 {
-    startButton.hidden = true
+    options.hidden = true
     board.hidden = false
     init()
 }
