@@ -5,15 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://bootswatch.com/4/cosmo/bootstrap.min.css">
     <link rel='icon' href='./favicon.ico' type='image/x-icon'/ >
-    <title>Schedule Viewer</title>
+    <title>To Do List</title>
 </head>
-<body  onload="startTime()">
+<body onload="startTime()">
     <br>
     <div class="container">
+        <h1>To Do List</h1>
         <p id="time-now"></p>
+
+        <ul>
+            <li>React Project : Project while learning</li>
+            <li>Vue Project : Project while learning</li>
+            <li>Algorithm: Searching</li>
+            <ul>
+                <li>
+                    <a href="./algorithm/linearSearch.html">
+                        Linear Search
+                    </a>
+                </li>
+                <li>Binary Search</li>
+            </ul>
+            <li>Algorithm: Sorting</li>
+            <ul>
+                <li>Selection Sort</li>
+                <li>Bubble Sort</li>
+                <li>Insertion Sort</li>
+                <li>Merge Sort</li>
+                <li>Quick Sort</li>
+            </ul>
+        </ul>
     </div>
 
     
 </body>
-    <script src="main.js"></script>
+    <script src="view_time.js"></script>
 </html>
