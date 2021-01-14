@@ -7,7 +7,7 @@ function startTime()
     h = checkTime(h)
     m = checkTime(m)
     s = checkTime(s)
-    document.getElementById('thyme').innerHTML = h + ":" + m + ":" + s
+    document.getElementById('time-now').innerHTML = h + ":" + m + ":" + s
     setTimeout(startTime, 500)
 }
 
