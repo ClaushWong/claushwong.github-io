@@ -1,0 +1,12 @@
+* {
+    user-select: none;
+}
+
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+table {
+    border: 1px solid black;
+}
