@@ -3,20 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://bootswatch.com/4/cosmo/bootstrap.min.css">
     <link rel='icon' href='./favicon.ico' type='image/x-icon'/ >
-    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Claush Site</title>
 </head>
-<body onload="startTime()">
-    <br>
-    <div class="container">
-        <h1>To Do List</h1>
-        <p id="time-now"></p>
-
-        <button onclick="location.href = './game.html'">Blind Game</button>
+<body>
+    <header>
+        <div class="logo">CLAUSH</div>
+        <nav class="nav_link">
+            <ul>
+                <li>
+                    <a href="#">Game</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="to_game" onclick="javascript:location.href='./game/game.html'">Blind Maze</button>
+    </header>
+    <div class="content-outer">
+        <div class="content-inner">
+            <div class="cover">
+                Welcome to my website.
+            </div>
+            <div class="who-am-i">
+                I am just a regular programmer who enjoys coding, playing games and having a good time!
+                <br> <br>
+                I enjoy creating various projects just for fun, Blind Maze is one of them.
+            </div>
+            <div class="spaces50"></div>
+            <table class="color-default who-am-i">
+                <tr>
+                    <td class="left50">
+                        <img width=400 height=auto src="https://whenmybrainfarts.files.wordpress.com/2015/09/maze.jpg" alt="maze" class="no-select" />
+                    </td>
+                    <td class="text-right left50">
+                        As the name suggested, it was a game where you've been given <br> 
+                        limited information to escape from a maze.
+                        <br><br>
+                        If you are interested, you can click on the button <br> on top left of the website or click 
+                        <a class="link-to-game" href="./game/game.html">here</a> to play.
+                    </td>
+                </tr>
+            </table>
+            <div class="spaces50"></div>
+            <div class="who-am-i">
+                Besides working on project, I also enjoy playing games where mostly are mobile games.
+            </div>
+            <div class="spaces50"></div>
+            <div class="float-left content-center">
+                <div class="imageContainer">
+                    <img height=498 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRctqIrnPj73K78a3L4v8derogn2NTV3fCJ1GaLriYC11RZHqkzZmZiyY7px5DyEtFx7-A&usqp=CAU">
+                    <div class="text-overlay center">Fate Grand Order</div>
+                </div>
+            </div>
+            <div class="float-left content-center">
+                <div class="imageContainer">
+                    <img width=332 src="https://gamerbraves.sgp1.cdn.digitaloceanspaces.com/2020/07/Blue-Archive.jpg">
+                    <div class="text-overlay center">Blue Archive</div>
+                </div>
+            </div>
+            <div class="float-left content-center">
+                <div class="imageContainer sp2-image">
+                    <img width=354 src="https://cdn.myanimelist.net/images/anime/1810/106070.jpg">
+                    <div class="text-overlay center">Princess<br>Connect<br>Re:Dive</div>
+                </div>
+            </div>
+            <div class="float-left content-center">
+                <div class="imageContainer sp-image">
+                    <img width=310 src="https://webusstatic.yo-star.com/ark_us_web/pc/img/gallery01.4cb3b7cf.jpg">
+                    <div class="text-overlay center">Arknights</div>
+                </div>
+            </div>
+            <div class="spaces500"></div>
+            <div class="spaces50"></div>
+            <div class="who-am-i">
+                It's not weird to not play this game right?
+            </div>
+            <div class="spaces50"></div>
+            <div class="newContainer">
+                <img class="centered" src="https://blog.playstation.com/tachyon/2020/11/Featured-Image-Genshin-Impact-update-out-tomorrow.jpg?fit=1024,720">
+            </div>
+            <br>
+            <div class="caption">I put Zhong Li because he is my strongest unit in the game right now.</div>
+            <div class="spaces50"></div>
+        </div>
     </div>
-
-    
+    <footer>
+        <div>The source code can be retrieve in my GitHub.</div>
+    </footer>
 </body>
-    <script src="view_time.js"></script>
 </html>
