@@ -133,6 +133,20 @@ footer {
 
 }
 
+.table-layout {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.table-layout, tr, td {
+    border: 1px solid black;
+}
+
+.table-layout thead,tbody td {
+    padding: 0 5%;
+    text-align: center;
+}
+
 table, tr, td{
     background-color: #edf0f1;
 }
