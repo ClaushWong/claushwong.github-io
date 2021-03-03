@@ -133,11 +133,19 @@ footer {
 }
 
 .table-layout {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 22%;
+    margin-right: 22%;
 }
 
-.table-layout, tr, td {
+.table-head tr td {
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    border: 1px solid black;
+}
+
+.table-body tr td {
+    text-align: center;
     border: 1px solid black;
 }
 
