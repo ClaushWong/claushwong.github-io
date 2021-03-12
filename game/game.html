@@ -6,9 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="gameControl.js" defer></script>
     <link rel="stylesheet" href="gameStyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./../assets/css/navigation.css">
     <title>Blind Maze</title>
 </head>
 <body>
+    <div class="nav">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="./../index.html">
+                        <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+                        <span class="title">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./../services.html">
+                        <span class="icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+                        <span class="title">Services</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fa fa-gamepad" aria-hidden="true"></i></span>
+                        <span class="title">Blind Maze</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <div class="container">
         <h1>Blind Maze</h1>
         <table>
@@ -24,8 +50,19 @@
                 <td>&nbsp;</td>
             </tr>
         </table>
-        <h3>Event</h3>
-        <p id="event"></p>
+        <div class="holder">
+            <h3>Event</h3>
+            <p id="event"></p>
+        </div>
+    </div>
+    <div class="instruction">
+        <h2>How to Play</h2>
+        <ol>
+            <li>Use Arrow Key to navigate through the map.</li>
+            <li>Event Tab shows what happened everytime <br> you pressed the Arrow Key.</li>
+            <li>Reach the goal where you have no idea <br> where is it.</li>
+            <li>Have Fun.</li>
+        </ol>
     </div>
 </body>
 </html>

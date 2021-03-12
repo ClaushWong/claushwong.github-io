@@ -2,11 +2,41 @@
     user-select: none;
 }
 
+body {
+    margin: 5%;
+    background: linear-gradient(45deg, #2c3e50, #bdc3c7) !important;
+}
+
 .container {
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 50%;
+    float: left;
+}
+
+.container h1 {
+    color: white;
+    padding-bottom: 15px;
 }
 
 table {
     border: 1px solid black;
+    color: white;
 }
+
+.holder { 
+    padding-top: 20px;
+    color: white;
+}
+
+.instruction {
+    float: right;
+    width: 50%;
+    color: white;
+    border: 1px solid white;
+    padding: 3%;
+}
+
+.instruction ol {
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
